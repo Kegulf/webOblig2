@@ -62,6 +62,10 @@
                     <section>
                         <h3>Hvorfor er det nyttig</h3>
                         <p>
+                            Det har vært en mangel på et effektivt system for å skrive matematisk og vitenskapelig 
+                            innhold i teknisk dokumentasjon på nett. HTML er ikke anlagt for det, bilder duger dårlig
+                            grunnet 
+                            
                             Noen av de største fordelene med MathML er:
                         </p>
                         <details>
@@ -69,6 +73,20 @@
                             <p>
                                 Posisjonering blir betrakelig lettere å posisjonere. Med tilgang til CSS kan marginer 
                                 legges til på hvert enkelt element, noe som gir brukeren mye kontroll!
+                            </p>  
+                        </details>
+                        <details>
+                            <summary>Søkbart</summary>
+                            <p>
+                                Det gjør innholdet søkbart
+                            </p>  
+                        </details>
+                        <details>
+                            <summary>Tilgjengelighet</summary>
+                            <p>
+                                Tilgjengeligheten øker for de som bruker spesial browsere, for eksempel
+                                en browser som sier innholdet av siden. Når innholdet er representert som et bilde
+                                er det vanskelig å få lest opp innholdet.
                             </p>  
                         </details>
                             
