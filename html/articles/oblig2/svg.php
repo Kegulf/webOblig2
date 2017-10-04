@@ -27,7 +27,7 @@
                     ARTIKLER
                 </a>
                 &gt;
-                <a href='#'>
+                <a href='svg.php'>
                     SVG
                 </a>
             </nav>

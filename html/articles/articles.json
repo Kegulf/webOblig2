@@ -1,22 +1,22 @@
 [
     {
         "headline": "Git og GitHub",
-        "meta": "Date: 16.09.17, 22:14. Author: Odd Martin Hansen",
-        "ingress": "tekst",
+        "meta": "Date: 04.10.17, 22:14. Author: Odd Martin Hansen",
+        "ingress": "Git er et versjonskontrollsystem, utviklet av Linus Torvalds (creater of Linux). Programvaren gir brukerene mulighet til å følge endringene i filer, samt samarbeide på større prosjekter. Det er i hovedsak brukt til kildekode håndtering i programvare utvikling. Det er bygget for å være raskt, samt beskytelse av integriteten til data.",
         "obligNum": 2,
         "filename": "gitOgGitHub.php"
     },
     {
         "headline": "MathML",
-        "meta": "Date: 16.09.17, 22:14. Author: Odd Martin Hansen",
+        "meta": "Date: 04.10.17, 18:54. Author: Odd Martin Hansen",
         "ingress": "MathML er et markup language for matematisk og vitenskapelig innhold til nettsider. Språket er utviklet av W3C i samarbeid flere firmaer med god erfaring innen prosessering og presentasjon av matematikk på data. Det bygger på XML og kan styles!",
         "obligNum": 2,
         "filename": "mathML.php"
     },    
     {
         "headline": "SVG",
-        "meta": "Date: 16.09.17, 22:14. Author: Odd Martin Hansen",
-        "ingress": "tekst",
+        "meta": "Date: 04.10.17, 21:26. Author: Odd Martin Hansen",
+        "ingress": "Scalable Vector Graphics, eller SVG for kort, er et XML basert filformat som brukes til å lage vektor bassert grafikk. Vektor bassert grafikk er en type grafikk som skalerer ekstremt bra. Dette kommer av at det er bygget opp av vektorer, som er en matematisk konstruksjon bestående av en retning og en lengde. Ved å endre lengden på vektorene, kan bilde skaleres uten å ofre kvalitet. ",
         "obligNum": 2,
         "filename": "svg.php"
     },

@@ -37,7 +37,12 @@
                             <p class="meta">Date: 16.09.17, 22:14. Author: Odd Martin Hansen</p>
                         </header>
                         <p class="ingress">
-                            tekst
+                            Git er et versjonskontrollsystem, utviklet av Linus 
+                            Torvalds (creater of Linux). Programvaren gir brukerene 
+                            mulighet til å følge endringene i filer, samt samarbeide
+                            på større prosjekter. Det er i hovedsak brukt til kildekode 
+                            håndtering i programvare utvikling. Det er bygget for å være
+                            raskt, samt beskytelse av integriteten til data.
                         </p>
                         <a href="html/articles/oblig2/gitOgGitHub.php" class="readMoreLink">
                             Les mer
@@ -46,7 +51,7 @@
                     <article class="articleCard">
                         <header>
                             <h2>MathML</h2>
-                            <p class="meta">Date: 16.09.17, 22:14. Author: Odd Martin Hansen</p>
+                            <p class="meta">Date: 04.10.17, 18:54. Author: Odd Martin Hansen</p>
                         </header>
                         <p class="ingress">MathML er et markup language for matematisk og vitenskapelig innhold til nettsider. Språket er utviklet av W3C i samarbeid flere firmaer med god erfaring innen prosessering og presentasjon av matematikk på data. Det bygger på XML og kan styles!</p>
                         <a href="html/articles/oblig2/mathML.php" class="readMoreLink">Les mer</a>
@@ -54,7 +59,7 @@
                     <article class="articleCard">
                         <header>
                             <h2>SVG</h2>
-                            <p class="meta">Date: 16.09.17, 22:14. Author: Odd Martin Hansen</p>
+                            <p class="meta">Date: 04.10.17, 21:26. Author: Odd Martin Hansen</p>
                         </header>
                         <p class="ingress">
                             Scalable Vector Graphics, eller SVG for kort, er et XML basert filformat 
