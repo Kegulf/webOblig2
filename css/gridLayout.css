@@ -199,7 +199,8 @@ article .readMoreLink {
 
 .articleCard {
     flex: 1;
-    min-width: 280px;
+    width: 350px;
+    min-width: 350px;
     max-width: 350px;
     min-height: 390px;
     margin: 0 2% 2% 2%;
@@ -229,9 +230,11 @@ article .readMoreLink {
 }
 
 .articleCard .readMoreLink:hover {
-    height: 40px;
-    line-height: 25px;
     background-color: #eee;
+}
+
+.articleCard .readMoreLink:active {
+    background-color: #ddd;
 }
 
 
@@ -319,6 +322,27 @@ table#inspiration tr th {
 table#inspiration tr:nth-child(odd) { /* Haha the pun */
     background-color: #ddd;
 }
+
+a.textlink,
+a.textLink:link {
+    display: inline-block;
+    color: black;
+    font-size: 1.1rem;
+}
+
+a.textLink:visited {
+    color: #979;
+}
+
+a.textLink:hover {
+    color: #60f;
+}
+
+a.textLink:active {
+    color: #999;
+}
+
+
 
 
 /* For testing purposes */
