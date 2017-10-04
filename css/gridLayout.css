@@ -7,6 +7,7 @@
     margin: 0 auto;
     padding: 0;
 }
+
 body * {
     /* count padding and border as a part of width and height       */
     -webkit-box-sizing: border-box;
@@ -102,9 +103,16 @@ aside#infoPanel {
 }
 
 footer {
+    height: 100%;
     grid-area: footer;
     border-top: 1px solid #ccc;
+    text-align: center;
+    line-height: 35px;
+    padding: 15px;
 }
+
+
+
 
 footer,
 aside#infoPanel {
@@ -364,8 +372,8 @@ table#inspiration tr:nth-child(odd) { /* Haha the pun */
 
 /* Portrait tablet to landscape and desktop */
 @media only screen and (min-width: 768px) and (max-width: 979px) { 
-    div#articleContainer {
-        flex-direction: column;
+    .articleCard {
+        width: 100%;
     }
 }
 

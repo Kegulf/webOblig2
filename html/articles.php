@@ -52,9 +52,10 @@
             </main>
             <aside id="infoPanel"></aside>
             <footer>
-                
-                <p>Odd Martin Hansen &copy; 2017</p>
-            
+                <?php
+                    include '../includes/footer.php';
+                    footer(2);
+                ?>
             </footer>
         </div>
     </body>

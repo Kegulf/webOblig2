@@ -19,7 +19,7 @@
     <body>     
         <div id="master-grid">
             <header id="topHeader">
-                <a id="star" href="index.php">*</a>
+                <a id="star" href="../../../index.php">*</a>
                 <h1>AN ODD ONE</h1>
             </header> 
             
@@ -186,13 +186,10 @@
             </main>
             <aside id="infoPanel"></aside>
             <footer>
-                
                 <?php
                     include '../../../includes/footer.php';
                     footer(4)         
-                ?>
-                <p>Odd Martin Hansen &copy; 2017</p>
-            
+                ?>            
             </footer>
         </div>
     </body>

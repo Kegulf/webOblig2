@@ -62,7 +62,7 @@
                         <h3>Navigasjon og brødsmuler</h3>
                         <p>
                             På nettsiden jeg leverte obligatorisk innlevering 1
-                            (<a href="http://ask.hiof.no/~oddh/webutvikling/current" target="_blank">link <i class="fa fa-external-link" aria-hidden="true"></i></a>), 
+                            (<a class="textLink" href="http://ask.hiof.no/~oddh/webutvikling/current" target="_blank">link <i class="fa fa-external-link" aria-hidden="true"></i></a>), 
                             var navigasjonen min et mareritt.
                             Derfor bestemte jeg meg for å lage en mindre komplisert meny med kun de viktigste elementene,
                             for så å lage en utvidet oversikt på de enkelte sidene.
@@ -114,7 +114,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <a href="http://www.css-tricks.com" target="_blank">
+                                    <a class="textLink" href="http://www.css-tricks.com" target="_blank">
                                         CSS-tricks <i class="fa fa-external-link" aria-hidden="true"></i>
                                     </a>
                                 </td>
@@ -124,7 +124,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <a href="http://www.view.no" target="_blank">
+                                    <a class="textLink" href="http://www.view.no" target="_blank">
                                         View <i class="fa fa-external-link" aria-hidden="true"></i>
                                     </a>
                                 </td>
@@ -134,7 +134,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <a href="https://support.google.com/chrome/answer/95414?hl=en&ref_topic=7438008" target="_blank">
+                                    <a class="textLink" href="https://support.google.com/chrome/answer/95414?hl=en&ref_topic=7438008" target="_blank">
                                         Google hjelpesider <i class="fa fa-external-link" aria-hidden="true"></i>
                                     </a>
                                 </td>
@@ -157,9 +157,10 @@
             </main>
             <aside id="infoPanel"></aside>
             <footer>
-                
-                <p>Odd Martin Hansen &copy; 2017</p>
-            
+                <?php
+                    include '../includes/footer.php';
+                    footer(2);
+                ?>
             </footer>
         </div>
     </body>
