@@ -39,20 +39,40 @@
                     </header>
                     
                     <p class="ingress">
-                        MathML er et markup language for matematisk og vitenskapelig innhold til nettsider. 
+                        MathML er et markup language for å vise matematisk og vitenskapelig innhold til nettsider. 
                         Språket er utviklet av W3C i samarbeid flere firmaer med god erfaring innen 
                         prosessering og presentasjon av matematikk på data. Det bygger på XML og kan styles!
                     </p>
                     
                     <section>
                         <h3>Hva er MathML</h3>
-                        
+                        <p>
+                            Før MathML ble laget, var det lite effektivt å vise matematisk innhold på nettsider. 
+                            Den vanligste løsningen var å skrive innholdet i et alternativt verktøy, for så å lage
+                            et bilde som ble brukt på nettsiden. MathML ble laget som en løsning for å kunne vise 
+                            matematisk innhold på en strukturert måte som kan styles og endres dynamisk.
+                        </p>
+                        <p>                           
+                            Som sagt bygger MathML på XML. Med dette menes det at det er bygget opp med likt 
+                            tag-system som HTML, som også bygger på XML. Det er dette som åpner for muligheten til å style
+                            innholdet. 
+                        </p> 
                         
                     </section>
                     <section>
                         <h3>Hvorfor er det nyttig</h3>
-                        
-                        
+                        <p>
+                            Noen av de største fordelene med MathML er:
+                        </p>
+                        <details>
+                            <summary>Posisjonering</summary>
+                            <p>
+                                Posisjonering blir betrakelig lettere å posisjonere. Med tilgang til CSS kan marginer 
+                                legges til på hvert enkelt element, noe som gir brukeren mye kontroll!
+                            </p>  
+                        </details>
+                            
+                            
                     </section>
                     <section>
                         <h3>Eksempler på bruk</h3>
