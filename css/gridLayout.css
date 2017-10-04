@@ -1,0 +1,380 @@
+@import url('normalize.css');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu|Ubuntu+Mono:700');
+@import url('menu.css');
+@import url('print.css');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+body * {
+    /* count padding and border as a part of width and height       */
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+}
+
+/* HTML og Body tags*/
+html,
+body {
+    height: 100%;
+    font-family: 'Ubuntu', sans-serif;  
+    
+    /* Setting a default font-size for the doc,      */
+    /* so other text elements can be scaled with rem */
+    font-size: 17px;      
+}
+
+/* All headers, specifies the fonts */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+header#topHeader h1 {
+    font-size: 3.5rem;
+    width: calc(100% - 120px);
+    line-height: 90px;
+    margin: 0 120px;
+}
+header#topHeader a#star {
+    width: 100px;
+    display: inline-block;
+    font-size: 6.2rem;
+    line-height: 125px;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+
+div#master-grid {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto;    
+    display: grid;
+    grid-auto-rows: 1fr;
+    grid-template-columns: 100px 1fr 250px;
+    grid-template-rows: 100px 30px 1fr 100px;
+    grid-template-areas:    "header header header"
+                            "nav structuralNavBar aside"
+                            "nav content aside"
+                            "nav content footer";    
+}
+
+
+/* Main grid structur */
+header#topHeader {
+    grid-area: header;
+    background-color: #575359;
+    border-bottom: 10px solid #47006b;
+    width: 100%;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+nav#navigation {
+    grid-area: nav;
+}
+
+nav#structuralNavBar {
+    grid-area: structuralNavBar;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+    line-height: 160%;
+    text-align: center;
+}
+nav#structuralNavBar a {
+    height: 100%;
+    margin: 0 8px;
+    color: black; 
+    text-decoration: underline;
+}
+
+nav#structuralNavBar a:last-child {
+    font-weight: bold;
+}
+
+aside#infoPanel {
+    grid-area: aside;
+}
+
+footer {
+    grid-area: footer;
+    border-top: 1px solid #ccc;
+}
+
+footer,
+aside#infoPanel {
+    background-color: #eee;
+    width: 100%;
+    border-left: 1px solid #ccc;
+}
+
+
+main {
+    grid-area: content;
+    background-color: #fff;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1440px;
+    
+    
+    /* Defining sub-grid for main content */
+    display: flex;
+    flex-direction: column;
+}
+
+main h2.obligHeadline {
+    font-size: 2.8rem;
+    padding: 20px;
+    text-align: center;
+}
+
+main h2#newestArticles {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 15px 0;
+}
+
+div#imageContainer {
+    flex: 5;
+    background-color: red;
+    width: 65%;
+    min-width: 650px;
+    min-height: 300px;
+    margin: 15px auto 0 auto;
+}
+
+div#articleContainer {
+    flex: 6;
+}
+
+div.cardContainer {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2% 2% 2%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+
+
+/* Article related */
+article {
+    line-height: 160%;
+}
+
+article header {
+    border-bottom: 1px solid #ccc;
+}
+
+article p.meta {
+    font-style: italic;
+    font-size: 0.62rem;
+}
+
+/* The button like anchor tags in articles. */
+article .readMoreLink {
+    display: inline-block;
+    padding: 7px;
+    width: 100%;
+    border-top: 1px solid #ccc;
+    text-decoration: none;
+}
+
+.articleCard {
+    flex: 1;
+    min-width: 280px;
+    max-width: 350px;
+    min-height: 390px;
+    margin: 0 2% 2% 2%;
+    color: black;
+    border: 2px solid #ccc;
+    box-shadow: 1px 1px 10px #ccc;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.articleCard header {
+    width: 100%;
+    height: 65px;
+    padding: 15px 15px 0 15px;
+}
+.articleCard p.ingress {
+    text-align: justify;
+    padding: 15px;
+    font-size: 0.9rem;
+    flex: 1 0 auto;
+}
+.articleCard .readMoreLink {
+    height: 40px;
+    line-height: 25px;
+    color: black;
+}
+
+.articleCard .readMoreLink:hover {
+    height: 40px;
+    line-height: 25px;
+    background-color: #eee;
+}
+
+
+
+
+.articleFull {
+    flex: 1 0 auto;
+    width: 70%;
+    min-width: 480px; 
+    margin: 0 auto;   
+    padding: 20px 60px 60px 60px;  
+    color: black;  
+}
+
+.articlefull p.ingress {
+    
+}
+
+.articleFull h2,
+.articleFull h3, 
+.articleFull h4 {
+    text-align: center;
+    margin: 30px 0 5px 0;
+}
+
+.articleFull h2 {
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+}
+
+.articleFull h3 {
+    font-size: 1.8rem;
+}
+.articleFull h4 {
+    font-size: 1.4rem;
+}
+
+.articleFull p {
+    font-size: 1rem;
+    margin: 15px 0;
+    text-align: justify;
+}
+
+.articleFull ul {
+    margin-left: 25px;
+}
+
+.articleFull ul li {
+    font-size: 1rem;
+}
+.articleFull figure {
+    float: right;
+    clear: both;
+    
+    width: calc(50% - 20px);
+    margin: 0 0 15px 20px;
+}
+
+figure img,
+figure figcaption {
+    width: 100%;
+    font-size: 0.8rem;
+}
+
+
+
+table#inspiration {
+    width: 100%; 
+    margin: 15px 0;
+    box-shadow: 1px 1px 10px #ccc;
+}
+
+table#inspiration,
+table#inspiration tr th,
+table#inspiration tr td{
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+
+table#inspiration tr td,
+table#inspiration tr th {
+    padding: 5px;    
+}
+
+table#inspiration tr:nth-child(odd) { /* Haha the pun */
+    background-color: #ddd;
+}
+
+
+/* For testing purposes */
+ 
+/* Landscape phones and down */
+@media only screen and (max-width: 480px) {
+    div#master-grid {
+        height: 100%;
+        min-width: 100%;
+        
+        display: flex;
+        flex-direction: column;
+        
+    }
+    header#mainHeader {
+        flex: 1;
+    }
+    
+    nav#navigation {
+        display: none;
+    }
+    
+    main {
+        flex: 1 0 auto;
+        margin: 0;
+        width: 100%;
+    }
+    
+    aside#infoPanel {
+        flex: 2;
+    }
+    
+    footer {
+        flex: 2;
+    }
+    
+    div#imageContainer {
+        width: 100%;
+        margin: 15px 0;
+        min-width: auto;
+        max-width: 480px;
+    }
+    
+    
+}
+
+/* Landscape phone to portrait tablet */
+@media only screen and (max-width: 767px) { 
+
+}
+
+/* Portrait tablet to landscape and desktop */
+@media only screen and (min-width: 768px) and (max-width: 979px) { 
+    div#articleContainer {
+        flex-direction: column;
+    }
+}
+
+/* Large desktop */
+@media (min-width: 1200px) { 
+
+}
+
+
+
+
+

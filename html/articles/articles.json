@@ -1,0 +1,55 @@
+[
+    {
+        "headline": "Git",
+        "meta": "Date: 16.09.17, 22:14. Author: Odd Martin Hansen",
+        "ingress": "tekst",
+        "obligNum": 2,
+        "filename": "gitOgGitHub.php"
+    },
+    {
+        "headline": "MathML",
+        "meta": "Date: 16.09.17, 22:14. Author: Odd Martin Hansen",
+        "ingress": "MathML er et markup language for matematisk og vitenskapelig innhold til nettsider. Språket er utviklet av W3C i samarbeid flere firmaer med god erfaring innen prosessering og presentasjon av matematikk på data. Det bygger på XML og kan styles!",
+        "obligNum": 2,
+        "filename": "mathML.php"
+    },    
+    {
+        "headline": "SVG",
+        "meta": "Date: 16.09.17, 22:14. Author: Odd Martin Hansen",
+        "ingress": "tekst",
+        "obligNum": 2,
+        "filename": "svg.php"
+    },
+    {
+        "headline": "Box-model",
+        "meta": "Date: 16.09.17, 22:14. Author: Odd Martin Hansen",
+        "ingress": "Når en nettleser skal rendere et html dokument, representerer renderingsmotoren i nettleseren alle elementersom en rektangulær boks. Dette er det som kalles Box-model. Med CSS defineres størrelsen, posisjonen og egenskapene (farge, bakgrunn, etc.) til disse boksene.",
+        "obligNum": 1,
+        "filename": "boxModel.php"
+        
+    },
+    {
+        "headline": "FTP",
+        "meta": "Date: 16.09.17, 22:14. Author: Odd Martin Hansen",
+        "ingress": "<strong>File Transfer Protocol (FTP)</strong> er en protokoll for overføring av filer i et TCP/IP-basert nettverk. Overføringen utføres mellom en FTP-klient og en FTP-server, eks programmet FileZilla (klient) som overfører filer til ask serveren (linuxserver) til Høgskolen.",
+        "obligNum": 1,
+        "filename": "ftp.php"
+        
+    },
+    {
+        "headline": "Domener og URLer",
+        "meta": "Date: 16.09.17, 22:14. Author: Odd Martin Hansen",
+        "ingress": "Et <strong>domene</strong> er en del av et nettverk som har samme begynnelse på nettadressen. Man har et hoveddomene, som for eks. hiof, som igjen kan ha underdomener som it, ask, frigg osv. Et domene befinner seg på et toppdomene, i hiof's tilfellet er toppdomenet \".no\"",
+        "obligNum": 1,
+        "filename": "urlAndDomain.php"
+        
+    },
+    {
+        "headline": "Webserver",
+        "meta": "Date: 16.09.17, 22:14. Author: Odd Martin Hansen",
+        "ingress": "En webserver er software som er ansvarlig for å servere en klient en webside. Den mottar HTTP-requests og sender tilbake HTTP-responses. Disse responsene inneholder HTML, CSS og JS filene klienten etterspør.",
+        "obligNum": 1,
+        "filename": "webserver.php"
+        
+    }    
+]

@@ -1,0 +1,54 @@
+/* Menu */
+
+nav#navigation {
+    background-color: #070707;
+    width: 100%;
+    height: auto;
+}
+
+nav#navigation h2 {
+    color: white;
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav#navigation ul {
+    list-style: none;
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+
+nav#navigation ul li {
+    box-sizing: border-box;
+    width: 100%;
+    height: 120px;
+    text-align: center;
+    color: #070707;
+}
+
+nav#navigation ul li a {
+    display: inline-block;
+    height: 120px;
+    
+    text-decoration: none;
+    color: #070707; 
+    fill: white;
+}
+
+nav#navigation ul li a svg{
+    width: 100%;
+    height: 70%;
+}
+
+/* colors on hover */
+nav#navigation:hover ul li a { color: white; }
+nav#navigation:hover li:hover .menuOption1 { color: red; fill: red;}
+nav#navigation:hover li:hover .menuOption2 { color: orange; fill: orange;}
+nav#navigation:hover li:hover .menuOption3 { color: yellow; fill: yellow}
+nav#navigation:hover li:hover .menuOption4 { color: limegreen; fill: limegreen}
+nav#navigation:hover li:hover .menuOption5 { color: dodgerblue; fill: dodgerblue}
+nav#navigation:hover li:hover .menuOption6 { color: mediumpurple; fill: mediumpurple}
