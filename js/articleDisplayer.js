@@ -36,7 +36,7 @@ function workIt(array) {
         }
     }
     displayByOblig(2, oblig2);
-    displayByOblig(1, oblig1);
+    //displayByOblig(1, oblig1);
 }
 
 function displayByOblig (obligNum, array) {

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="nb">
     <head> 
-        <title>Forside - Oddh</title>
+        <title>Artikler - An Odd One</title>
         <?php
             include '../includes/head.php';
             head(2);
@@ -43,7 +43,7 @@
                     <i class="fa fa-home" aria-hidden="true">&nbsp;</i>HJEM
                 </a>
                 &gt;
-                <a href='../index.php'>
+                <a href='articles.php'>
                     ARTIKLER
                 </a>               
             </nav>

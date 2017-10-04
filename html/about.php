@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="nb">
     <head> 
-        <title>Forside - Oddh</title>
+        <title>Om siden - Oddh</title>
         <?php
             include '../includes/head.php';
             head(2);
@@ -31,7 +31,7 @@
             <main>
                 <article class="articleFull">
                     <header>
-                        <h2>Om Siden</h2> 
+                        <h2>Om siden</h2> 
                     </header>
                     
                     <p class="ingress">

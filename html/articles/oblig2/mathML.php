@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="nb">
     <head> 
-        <title>Forside - Oddh</title>
+        <title>MathML - An Odd One</title>
         <?php
             include '../../../includes/head.php';
             head(4);
@@ -66,6 +66,10 @@
             <aside id="infoPanel"></aside>
             <footer>
                 
+                <?php
+                    include '../../../includes/footer.php';
+                    footer(4)         
+                ?>
                 <p>Odd Martin Hansen &copy; 2017</p>
             
             </footer>
