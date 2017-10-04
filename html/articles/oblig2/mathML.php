@@ -6,6 +6,15 @@
             include '../../../includes/head.php';
             head(4);
         ?>
+        <style>
+            .mathHeader {        
+                font-size: 1.8rem;
+                padding-bottom: 5px;
+                padding-top: 35px;
+                border-bottom: 1px solid #ccc;
+            }
+        
+        </style>
     </head>
     <body>     
         <div id="master-grid">
@@ -56,23 +65,25 @@
                             Som sagt bygger MathML på XML. Med dette menes det at det er bygget opp med likt 
                             tag-system som HTML, som også bygger på XML. Det er dette som åpner for muligheten til å style
                             innholdet. 
-                        </p> 
-                        
+                        </p>                        
                     </section>
+                    
                     <section>
                         <h3>Hvorfor er det nyttig</h3>
                         <p>
                             Det har vært en mangel på et effektivt system for å skrive matematisk og vitenskapelig 
                             innhold i teknisk dokumentasjon på nett. HTML er ikke anlagt for det, bilder duger dårlig
-                            grunnet 
-                            
+                            grunnet liten tilgjengelighet.
+                        </p>
+                        <p>                           
                             Noen av de største fordelene med MathML er:
                         </p>
                         <details>
                             <summary>Posisjonering</summary>
                             <p>
-                                Posisjonering blir betrakelig lettere å posisjonere. Med tilgang til CSS kan marginer 
-                                legges til på hvert enkelt element, noe som gir brukeren mye kontroll!
+                                Innholdet blir betrakelig lettere å posisjonere. Gir brukeren mye kontroll! 
+                                Men når MathJax biblioteket må brukes må det scripting til for å få det til å
+                                fungere skikkelig.
                             </p>  
                         </details>
                         <details>
@@ -88,16 +99,88 @@
                                 en browser som sier innholdet av siden. Når innholdet er representert som et bilde
                                 er det vanskelig å få lest opp innholdet.
                             </p>  
-                        </details>
-                            
-                            
+                        </details>       
                     </section>
                     <section>
                         <h3>Eksempler på bruk</h3>
+                        <p>Noen eksempler på bruk av MathML: </p>
                         
+                        <!-- Fermat's last theorem -->
+                        <math id="fermat">
+                            <mrow>
+                                <mtext class="mathHeader">Fermat's siste teorem</mtext>
+                                <mspace linebreak='newline' />
+                            </mrow>
+                            <mrow>
+                                <mtext>Der fins ingen heltalls løsninger på likningen:</mtext>
+                                <mspace linebreak='newline' />
+                            </mrow>
+                            <mrow>
+                                <msup>
+                                    <mi>x</mi>
+                                    <mn>n</mn>
+                                </msup>
+                                <mo>+</mo>
+                                <msup>
+                                    <mi>y</mi>
+                                    <mn>n</mn>
+                                </msup>
+                                <mo>=</mo>
+                                <msup>
+                                    <mi>z</mi>
+                                    <mn>n</mn>
+                                </msup>
+                                <mtext>, for&nbsp;</mtext> 
+                                <mi>n</mi>
+                                <mo>&gt;</mo>
+                                <mn>2</mn>
+                            </mrow> 
+                        </math>
                         
-                        
-                        
+                        <!-- Euler's Identity -->
+                        <math id="euler">
+                            <mtext class="mathHeader">Euler's Identity</mtext>
+                            <mspace linebreak='newline' />
+                            <mrow>
+                                <msup>
+                                    <mi>e</mi>
+                                    <mi>i&pi;</mi>
+                                </msup> 
+                                <mo>+</mo>
+                                <mn>1</mn>
+                                <mo>=</mo>
+                                <mn>0</mn>                                
+                            </mrow>      
+                        </math>
+                        <!-- ABC - formula -->
+                        <math id="abcFormula">
+                            <mtext class="mathHeader">ABC formelen</mtext>
+                            <mspace linebreak='newline' />
+                            <mi>y</mi>
+                            <mo>=</mo>
+                            <mfrac>
+                                <mrow>
+                                    <mo>-</mo>
+                                    <mi>b</mi>
+                                    <mo>&plusmn;</mo>
+                                    <msqrt>
+                                        <mrow>
+                                            <msup>
+                                                <mi>b</mi>
+                                                <mn>2</mn>
+                                            </msup>
+                                            <mo>-</mo>
+                                            <mn>4</mn>
+                                            <mi>ac</mi>
+                                        </mrow>
+                                    </msqrt>
+                                </mrow>
+                                <mrow>
+                                    <mn>2</mn>
+                                    <mi>a</mi>
+                                </mrow>
+                            </mfrac>
+                        </math>
                     </section>
                 </article>
             </main>
