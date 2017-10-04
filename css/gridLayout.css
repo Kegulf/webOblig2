@@ -55,7 +55,7 @@ div#master-grid {
     margin: 0 auto;    
     display: grid;
     grid-auto-rows: 1fr;
-    grid-template-columns: 100px 1fr 250px;
+    grid-template-columns: 100px 1fr 300px;
     grid-template-rows: 100px 30px 1fr 100px;
     grid-template-areas:    "header header header"
                             "nav structuralNavBar aside"
@@ -99,7 +99,31 @@ nav#structuralNavBar a:last-child {
 }
 
 aside#infoPanel {
+    padding: 10px;
     grid-area: aside;
+    display: flex;
+    flex-direction: column;
+}
+
+aside#infoPanel section.infoBox {
+    flex: 1;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin: 5px;
+    background-color: white;
+    box-shadow: 1px 1px 10px #ccc;
+    text-align: center;
+    line-height: 30px;
+    font-size: 1.2rem;
+}
+aside#infoPanel section.infoBox h3{
+    font-size: 2.1rem;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+    padding: 15px 15px 5px 15px;
+}
+aside#infoPanel section.infoBox ul{
+    list-style: none;
 }
 
 footer {
@@ -253,6 +277,8 @@ article .readMoreLink {
     
 }
 
+
+
 .articleFull h2,
 .articleFull h3, 
 .articleFull h4 {
@@ -267,6 +293,7 @@ article .readMoreLink {
 
 .articleFull h3 {
     font-size: 1.8rem;
+    clear: both;
 }
 .articleFull h4 {
     font-size: 1.4rem;
@@ -343,6 +370,13 @@ a.textLink:active {
 }
 
 
+    
+article.articleFull figure.krakenPic {
+    
+    margin: 0 auto;
+    width: 70%;
+    float: none;
+}
 
 
 /* For testing purposes */
@@ -385,6 +419,8 @@ a.textLink:active {
         min-width: auto;
         max-width: 480px;
     }
+    
+    
     
     
 }

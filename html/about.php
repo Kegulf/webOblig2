@@ -73,19 +73,21 @@
                     
                     <section>
                         <h3>Design og tegning</h3>
+                        
+                        <figure>
+                            <img src="../pics/forside.png" />
+                            <figcaption>Design av forsiden</figcaption>
+                        </figure>    
+                        <figure>
+                            <img src="../pics/artikkelside.png" />
+                            <figcaption>Design av en artikkel</figcaption>
+                        </figure>
                         <p>
                             I planleggingen inngikk det også et krav om å tegne opp designet av nettsiden.
                             Dette kunne enten gjøres med program på PCen eller for hånd. 
                             Jeg valgte å gjøre det for hånd.
                         </p>
-                        <figure>
-                            <img src="http://via.placeholder.com/320x180" />
-                            <figcaption>Design av forsiden</figcaption>
-                        </figure>    
-                        <figure>
-                            <img src="http://via.placeholder.com/320x180" />
-                            <figcaption>Design av en artikkel</figcaption>
-                        </figure>
+                        
                         <p>                       
                             Designprosessen begynte med en søken etter inspirasjon, på Google.
                             Tok hovedutgangspunkt i designet fra to sider når jeg designet forsiden.
@@ -152,10 +154,23 @@
                             </tr>
                         </table>                    
                     </section>
+                    <section>
+                        <h3>Ekstra oppgave - Mobil wireframe</h3>
+                        <figure class="krakenPic">
+                            <img src="../pics/mobil.png" alt="Bilde av wireframe av mobildesign" />
+                            <figcaption>Design for mobil</figcaption>
+                        </figure>
+                    
+                    </section>
                     
                 </article>
             </main>
-            <aside id="infoPanel"></aside>
+            <aside id="infoPanel">
+                <?php
+                    include 'includes/aside.php';
+                    aside(1);
+                ?>
+            </aside>
             <footer>
                 <?php
                     include '../includes/footer.php';

@@ -87,7 +87,12 @@
                     </section>
                 </article>
             </main>
-            <aside id="infoPanel"></aside>
+            <aside id="infoPanel">
+                <?php
+                    include 'includes/aside.php';
+                    aside(1);
+                ?>
+            </aside>
             <footer>
                 <?php
                     include '../../../includes/footer.php';

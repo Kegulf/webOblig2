@@ -22,9 +22,9 @@ function menu($pageLevel) {
     $menuItems = array(
         array("HJEM", "index.php"), 
         array("ARTIKLER", "html/articles.php"),
-        array("GALLERI", "html/gallery.php"), 
-        array("WEBUTV", "html/web.php"), 
-        array("RESSURSER", "html/resources.php"), 
+        array("GALLERI", "#"), //html/gallery.php"), 
+        array("WEBUTV", "#"), //"html/web.php"), 
+        array("RESSURSER", "#"), //"html/resources.php"), 
         array("OM SIDEN", "html/about.php")
     );
         

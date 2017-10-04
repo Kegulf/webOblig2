@@ -76,12 +76,36 @@
                     </section>
                     <section style=>
                         <h3>GitKraken koblet opp mot GitHub</h3>
-                        
+                        <p>
+                            Jeg har brukt GitKraken under utviklingen av dette prosjektet. 
+                            Bildene viser GitKraken i bruk.
+                        </p>
+                        <figure class="krakenPic">
+                            <img src="../../../pics/gitKraken1.png" alt="Endringer i fil, GitHub" />
+                            <figcaption>GitKraken i aksjon, øverste node står som "WIP"</figcaption>
+                        </figure>
+                        <figure class="krakenPic">
+                            <img src="../../../pics/gitKraken2.png" alt="Endringer i fil, GitHub" />
+                            <figcaption>Endringer foretatt i articles.json</figcaption>
+                        </figure>
+                        <figure class="krakenPic">
+                            <img src="../../../pics/gitKraken3.png" alt="Endringer i fil, GitHub" />
+                            <figcaption>Etter commit, ny node har blitt laget, må trykke push for å laste opp.</figcaption>
+                        </figure><figure class="krakenPic">
+                            <img src="../../../pics/gitKraken4.png" alt="Endringer i fil, GitHub" />
+                            <figcaption>Push succesful!</figcaption>
+                        </figure>
+
                               
                     </section>
                 </article>
             </main>
-            <aside id="infoPanel"></aside>
+            <aside id="infoPanel">
+                <?php
+                    include 'includes/aside.php';
+                    aside(1);
+                ?>
+            </aside>
             <footer>
                 <?php
                     include '../../../includes/footer.php';
