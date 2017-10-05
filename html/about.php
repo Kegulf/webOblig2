@@ -167,7 +167,7 @@
             </main>
             <aside id="infoPanel">
                 <?php
-                    include 'includes/aside.php';
+                    include '../includes/aside.php';
                     aside(1);
                 ?>
             </aside>
