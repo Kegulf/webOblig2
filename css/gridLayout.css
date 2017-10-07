@@ -127,8 +127,8 @@ aside#infoPanel section.infoBox ul{
 }
 
 footer {
-    height: 100%;
     grid-area: footer;
+    height: 100%;    
     border-top: 1px solid #ccc;
     text-align: center;
     line-height: 35px;
@@ -406,11 +406,14 @@ article.articleFull figure.krakenPic {
     }
     
     aside#infoPanel {
-        flex: 2;
+        flex: 1;
+        margin-bottom: 20px;
+        height: 100%;
     }
     
     footer {
-        flex: 2;
+        flex: 1;
+        height: 100%;
     }
     
     div#imageContainer {
